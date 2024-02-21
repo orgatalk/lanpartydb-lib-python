@@ -3,6 +3,8 @@
 
 ## 0.2.0 (unreleased)
 
+- Added module to load models from TOML data.
+
 
 ## 0.1.0 (2024-02-21)
 
