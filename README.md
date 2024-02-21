@@ -1,4 +1,4 @@
-# Python library for the OrgaTalk LANparty Database
+# Python library for the OrgaTalk LAN Party Database
 
 
 ## Installation
