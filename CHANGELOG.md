@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 0.3.0 (unreleased)
+## 0.3.0 (2024-05-16)
 
 - Added optional ``attendees`` property to ``Party``.
 
