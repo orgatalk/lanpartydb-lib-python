@@ -1,6 +1,6 @@
 [project]
 name = "lanpartydb"
-version = "0.2.0"
+version = "0.3.0"
 description = "Python library for the OrgaTalk LAN Party Database"
 authors = [
     { name = "Jochen Kupperschmidt", email = "homework@nwsnet.de" }
