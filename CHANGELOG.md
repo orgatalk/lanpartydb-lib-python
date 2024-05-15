@@ -3,6 +3,8 @@
 
 ## 0.3.0 (unreleased)
 
+- Added support for Python 3.12.
+
 
 ## 0.2.0 (2024-02-21)
 
