@@ -3,6 +3,8 @@
 
 ## 0.3.0 (unreleased)
 
+- Added optional ``attendees`` property to ``Party``.
+
 - Added support for Python 3.12.
 
 
