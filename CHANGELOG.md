@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 0.6.0 (unreleased)
+## 0.6.0 (2024-06-30)
 
 - Added module to write a party to a TOML document.
 
