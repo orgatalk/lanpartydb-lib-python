@@ -5,7 +5,9 @@ description = "Python library for the OrgaTalk LAN Party Database"
 authors = [
     { name = "Jochen Kupperschmidt", email = "homework@nwsnet.de" }
 ]
-dependencies = []
+dependencies = [
+    "tomlkit>=0.12.5",
+]
 readme = "README.md"
 requires-python = ">= 3.11"
 license = { text = "MIT" }

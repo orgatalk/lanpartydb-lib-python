@@ -3,6 +3,8 @@
 
 ## 0.6.0 (unreleased)
 
+- Added module to write a party to a TOML document.
+
 
 ## 0.5.0 (2024-06-30)
 
