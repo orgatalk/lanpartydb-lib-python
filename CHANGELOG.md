@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 0.5.0 (unreleased)
+## 0.5.0 (2024-06-30)
 
 - Removed support to load website URL from ``links.website``. From now
   on, it is expected only in ``links.website.url``.
