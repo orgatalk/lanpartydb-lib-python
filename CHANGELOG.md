@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 0.4.0 (unreleased)
+## 0.4.0 (2024-06-30)
 
 - Generalized name of model ``Website`` to ``Resource``.
 
