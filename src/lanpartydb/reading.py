@@ -59,15 +59,12 @@ def _read_party_from_dict(party_dict: dict[str, Any]) -> Party:
 
     links_dict = party_dict.pop('links', None)
     if links_dict:
-        website_obj = links_dict.pop('website', None)
-        if website_obj:
-            if isinstance(website_obj, dict):
-                website = Resource(
-                    url=website_obj['url'],
-                    offline=website_obj.get('offline', False),
-                )
-            else:
-                website = Resource(url=website_obj)
+        website_dict = links_dict.pop('website', None)
+        if website_dict:
+            website = Resource(
+                url=website_dict['url'],
+                offline=website_dict.get('offline', False),
+            )
             party_dict['links'] = Links(website=website)
 
     return Party(**party_dict)
