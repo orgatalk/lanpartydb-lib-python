@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 0.7.0 (unreleased)
+## 0.7.0 (2024-07-01)
 
 - Added optional ``country_codes`` property to ``Series``.
 
