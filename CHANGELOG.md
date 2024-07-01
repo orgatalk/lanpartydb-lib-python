@@ -3,6 +3,8 @@
 
 ## 0.7.0 (unreleased)
 
+- Added optional ``country_codes`` property to ``Series``.
+
 
 ## 0.6.0 (2024-06-30)
 

@@ -19,6 +19,7 @@ class Series:
     slug: str
     name: str
     alternative_names: set[str] = field(default_factory=set)
+    country_codes: set[str] = field(default_factory=set)
 
 
 @dataclass(frozen=True, kw_only=True)
