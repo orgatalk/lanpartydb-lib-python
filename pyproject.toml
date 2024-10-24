@@ -2,14 +2,14 @@
 name = "lanpartydb"
 version = "0.8.0"
 description = "Python library for the OrgaTalk LAN Party Database"
+readme = "README.md"
 authors = [
     { name = "Jochen Kupperschmidt", email = "homework@nwsnet.de" }
 ]
+requires-python = ">=3.11"
 dependencies = [
     "tomlkit>=0.12.5",
 ]
-readme = "README.md"
-requires-python = ">= 3.11"
 license = { text = "MIT" }
 keywords = [ "lanparty" ]
 classifiers = [
