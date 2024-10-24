@@ -5,6 +5,8 @@
 
 - Raised minimum required tomlkit version to 0.13.2.
 
+- Switched package/project manager from rye to uv.
+
 
 ## 0.7.0 (2024-07-01)
 
