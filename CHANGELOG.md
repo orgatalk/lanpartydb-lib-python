@@ -3,6 +3,8 @@
 
 ## 0.8.0 (unreleased)
 
+- Raised minimum required tomlkit version to 0.13.2.
+
 
 ## 0.7.0 (2024-07-01)
 
