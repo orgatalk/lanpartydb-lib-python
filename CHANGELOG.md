@@ -10,6 +10,8 @@
 
 - Added testing infrastructure (pytest, GitHub Action).
 
+- Added tests for series reading.
+
 - Added ruff as a development dependency.
 
 
