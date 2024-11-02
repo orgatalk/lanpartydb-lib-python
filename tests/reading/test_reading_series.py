@@ -27,6 +27,8 @@ from lanpartydb.reading import read_series_list_from_toml
                 Series(
                     slug='megalan',
                     name='MegaLAN',
+                    alternative_names=[],
+                    country_codes=[],
                 ),
             ],
         ),
