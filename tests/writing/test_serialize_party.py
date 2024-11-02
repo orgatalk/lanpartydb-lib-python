@@ -4,6 +4,7 @@
 """
 
 from datetime import date
+from decimal import Decimal
 from textwrap import dedent
 
 import pytest
@@ -46,6 +47,8 @@ from lanpartydb.writing import serialize_party
                     city='Los Angeles',
                     zip_code='90099',
                     street='123 North Hill Street',
+                    latitude=Decimal('34.06101057935884'),
+                    longitude=Decimal('-118.23974355902666'),
                 ),
                 links=Links(
                     website=Resource(
@@ -70,6 +73,8 @@ from lanpartydb.writing import serialize_party
             city = "Los Angeles"
             zip_code = "90099"
             street = "123 North Hill Street"
+            latitude = 34.06101057935884
+            longitude = -118.23974355902666
 
             [links.website]
             url = "https://www.superlan.example/"

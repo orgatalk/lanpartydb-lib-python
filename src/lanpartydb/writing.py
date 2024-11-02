@@ -21,6 +21,12 @@ import tomlkit
 def serialize_party(party: Party) -> str:
     """Serialize party to TOML document."""
     party_dict = _party_to_sparse_dict(party)
+
+    location = party_dict.get('location', None)
+    if location is not None:
+        _convert_decimal_to_float(location, 'latitude')
+        _convert_decimal_to_float(location, 'longitude')
+
     return _write_toml(party_dict)
 
 
@@ -28,6 +34,12 @@ def _party_to_sparse_dict(party: Party) -> dict[str, Any]:
     data = dataclasses.asdict(party)
     _remove_default_values(data)
     return data
+
+
+def _convert_decimal_to_float(d: dict[str, Any], key: str) -> None:
+    value = d.get(key)
+    if value is not None:
+        d[key] = float(value)
 
 
 # util

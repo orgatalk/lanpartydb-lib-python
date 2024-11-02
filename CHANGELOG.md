@@ -8,6 +8,8 @@
 - Changed type of ``Series`` fields ``alternative_names``,
   ``country_codes`` from ``set[str]`` to ``list[str]``.
 
+- Fixed serialization of party location's latitude and longitude.
+
 - Added testing infrastructure (pytest, GitHub Action).
 
 - Added tests for party, series reading.
