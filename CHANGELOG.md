@@ -3,6 +3,8 @@
 
 ## 0.9.0 (unreleased)
 
+- Added ruff as a development dependency.
+
 
 ## 0.8.0 (2024-10-25)
 

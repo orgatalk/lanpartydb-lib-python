@@ -26,6 +26,11 @@ Repository = "https://github.com/orgatalk/lanpartydb-lib-python"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[dependency-groups]
+dev = [
+    "ruff>=0.7.2",
+]
+
 [tool.ruff.format]
 quote-style = "single"
 line-ending = "lf"
