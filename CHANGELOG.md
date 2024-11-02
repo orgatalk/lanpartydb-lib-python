@@ -12,6 +12,8 @@
 
 - Added tests for party, series reading.
 
+- Added tests for party serialization.
+
 - Added ruff as a development dependency.
 
 
