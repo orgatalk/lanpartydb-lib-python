@@ -33,7 +33,7 @@ def read_series_list_from_toml(toml: str) -> list[Series]:
 
 def _read_series_list_from_dict(data: dict[str, Any]) -> list[Series]:
     """Read list of series from a dictionary."""
-    return [Series(**item) for item in data['series']]
+    return [Series(**item) for item in data.get('series', [])]
 
 
 # party

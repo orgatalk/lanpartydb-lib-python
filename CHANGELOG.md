@@ -3,6 +3,8 @@
 
 ## 0.9.0 (unreleased)
 
+- Fixed parsing of empty series document.
+
 - Added ruff as a development dependency.
 
 
