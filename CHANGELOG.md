@@ -5,6 +5,9 @@
 
 - Fixed parsing of empty series document.
 
+- Changed type of ``Series`` fields ``alternative_names``,
+  ``country_codes`` from ``set[str]`` to ``list[str]``.
+
 - Added ruff as a development dependency.
 
 

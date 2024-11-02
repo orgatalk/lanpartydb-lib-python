@@ -18,8 +18,8 @@ from decimal import Decimal
 class Series:
     slug: str
     name: str
-    alternative_names: set[str] = field(default_factory=set)
-    country_codes: set[str] = field(default_factory=set)
+    alternative_names: list[str] = field(default_factory=list)
+    country_codes: list[str] = field(default_factory=list)
 
 
 @dataclass(frozen=True, kw_only=True)
