@@ -8,6 +8,8 @@
 - Changed type of ``Series`` fields ``alternative_names``,
   ``country_codes`` from ``set[str]`` to ``list[str]``.
 
+- Added testing infrastructure (pytest, GitHub Action).
+
 - Added ruff as a development dependency.
 
 
