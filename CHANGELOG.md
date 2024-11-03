@@ -18,6 +18,8 @@
 
 - Added ruff as a development dependency.
 
+- Updated repository URL.
+
 
 ## 0.8.0 (2024-10-25)
 

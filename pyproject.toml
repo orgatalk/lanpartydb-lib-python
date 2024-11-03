@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/orgatalk/lanpartydb-lib-python"
+Repository = "https://github.com/lanpartydb/lib-python"
 
 [build-system]
 requires = ["hatchling"]
