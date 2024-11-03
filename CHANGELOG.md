@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 0.10.0 (unreleased)
+
+
 ## 0.9.0 (2024-11-03)
 
 - Fixed parsing of empty series document.
