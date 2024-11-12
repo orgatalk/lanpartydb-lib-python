@@ -15,8 +15,17 @@ https://github.com/lanpartydb
 
 ## Installation
 
+With pip:
+
 ```sh
 $ pip install lanpartydb
+```
+
+Or with [uv](https://docs.astral.sh/uv/):
+
+```sh
+$ uv init
+$ uv add lanpartydb
 ```
 
 
