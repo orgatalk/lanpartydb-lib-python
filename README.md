@@ -20,6 +20,75 @@ $ pip install lanpartydb
 ```
 
 
+## Usage
+
+To serialize a party with only the required attributes to TOML:
+
+```py
+from datetime import date
+
+from lanpartydb.models import Party
+from lanpartydb.writing import serialize_party
+
+party = Party(
+    slug='megalan-2023',
+    title='MegaLAN 2023',
+    start_on=date(2023, 11, 17),
+    end_on=date(2023, 11, 19),
+)
+
+toml = serialize_party(party)
+
+print(toml)
+```
+
+And to serialize a party with all available attributes to a TOML file:
+
+```py
+from datetime import date
+from decimal import Decimal
+from pathlib import Path
+
+from lanpartydb.models import Links, Location, Party, Resource
+from lanpartydb.writing import serialize_party
+
+party = Party(
+    slug='superlan-2024',
+    title='SuperLAN 2024',
+    series_slug='superlan',
+    organizer_entity='SuperLAN Association',
+    start_on=date(2024, 5, 24),
+    end_on=date(2024, 5, 26),
+    seats=420,
+    attendees=397,
+    online=False,
+    location=Location(
+        name='City Hall',
+        country_code='us',
+        city='Los Angeles',
+        zip_code='90099',
+        street='123 North Hill Street',
+        latitude=Decimal('34.06101057935884'),
+        longitude=Decimal('-118.23974355902666'),
+    ),
+    links=Links(
+        website=Resource(
+            url='https://www.superlan.example/',
+            offline=False,
+        ),
+    ),
+)
+
+toml = serialize_party(party)
+
+path = Path('./superlan-2024.toml')
+path.write_text(toml)
+```
+
+Take a look at the code (in `src/`) and the tests (in `tests/`) to learn
+more about the library's interface.
+
+
 ## License
 
 MIT
