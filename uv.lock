@@ -27,7 +27,7 @@ dependencies = [
     { name = "tomlkit" },
 ]
 
-[package.dependency-groups]
+[package.dev-dependencies]
 dev = [
     { name = "ruff" },
 ]
@@ -38,7 +38,7 @@ test = [
 [package.metadata]
 requires-dist = [{ name = "tomlkit", specifier = ">=0.13.2" }]
 
-[package.metadata.dependency-groups]
+[package.metadata.requires-dev]
 dev = [{ name = "ruff", specifier = ">=0.7.2" }]
 test = [{ name = "pytest", specifier = ">=8.3.3" }]
 
