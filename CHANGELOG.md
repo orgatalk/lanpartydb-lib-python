@@ -3,6 +3,8 @@
 
 ## 0.10.0 (unreleased)
 
+- Added description, usage examples to README.
+
 
 ## 0.9.0 (2024-11-03)
 
