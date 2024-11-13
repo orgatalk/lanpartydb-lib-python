@@ -13,6 +13,11 @@ Data and code repositories for the project are available at:
 https://github.com/lanpartydb
 
 
+## Status
+
+[![Test](https://github.com/lanpartydb/lib-python/actions/workflows/test.yml/badge.svg)](https://github.com/lanpartydb/lib-python/actions/workflows/test.yml)
+
+
 ## Installation
 
 With pip:
